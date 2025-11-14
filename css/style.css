@@ -73,6 +73,10 @@ header {
   cursor: pointer;
 }
 
+.close:hover{
+  background-color: #404BBF;
+}
+
 .modal h2 {
   margin-top: 36px;
   margin-bottom: 20px;
@@ -89,7 +93,7 @@ label{
   width: 100%;
   height: 40px;
   border-radius: 4px;
-  border: 1px solid  #ccc;
+  outline: none;
   padding: 10px 12px;
   margin-top: 4px;
   font-size: 14px;
@@ -132,13 +136,20 @@ textarea{
   color: #757575;
 }
 
-.svg-9{
-  position: absolute;
-  top: 12px;
+.svg-9, .svg-10, .svg-11{
   width: 12px;
   height: 12px;
 }
 
+.svg-9, .svg-10, .svg-11{
+  position: relative;
+  top: 37px;
+  left:-25px;
+}
+
+.svg-11{
+  left: -20px;
+}
 
 .nav-1 {
   display: flex;
