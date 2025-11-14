@@ -50,6 +50,11 @@ header {
   justify-content: center;
   opacity: 1;
   z-index: 99;
+  display: none;
+}
+
+.backdrop-is-open{
+  display:flex;
 }
 
 .modal{
