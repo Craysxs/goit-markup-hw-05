@@ -113,6 +113,10 @@ label{
   border: 1px solid #4D5AE5;
 }
 
+.label-1:focus-within{
+  fill: #4D5AE5;
+}
+
 textarea{
   height: 100px;
   resize: none;
@@ -450,6 +454,8 @@ footer {
 }
 
 .input-footer:focus{
+  transition: all 250ms cubic-bezier();
+  outline: none;
   border: 1px solid #31D0AA;
 }
 
@@ -463,6 +469,7 @@ footer {
 }
 
 .button-footer:hover{
+  transition: all 250ms cubic-bezier();
   background-color: #31D0AA;
 }
 
